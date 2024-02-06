@@ -14,5 +14,5 @@ app.set("views", "./views");
 app.use("/", indexRoute);
 
 app.listen(port, () => {
-	console.log(`Server initialized on localhost:${port}`);
+	console.log(`Server initialized on port:${port}`);
 });
