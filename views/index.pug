@@ -1,0 +1,53 @@
+doctype html
+html 
+    head
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        link(rel="preconnect" href="https://rsms.me/")
+        link(rel="stylesheet" href="https://rsms.me/inter/inter.css")
+        link(rel="stylesheet" href="../css/main.css")
+        script(type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js")
+        script(nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js")
+        title @joaobraun
+    body 
+            div(class="container")
+                header(class="left-panel")
+                    div(class="title-info")
+                        h1(class="") João A Braun Urruzola
+                        h2(class="") Estudante de Sistemas de Informação
+                        p(class="") Construo aplicações web com foco em qualidade <br>e atenção aos detalhes.
+                    nav(class="nav-list-container")
+                        ul(class="list")
+                            a(class="about" style="text-decoration: none; color: rgb(107 114 128);" href="#sobre")
+                                li(class="sobre") Sobre
+                            a(class="about" style="text-decoration: none; color: rgb(107 114 128);" href="#projetos")
+                                li(class="projetos") Projetos
+                            a(class="curriculo" style="text-decoration: none; color: rgb(107 114 128);" href="/pdf/curriculo_2024.pdf" target="_blank")
+                                li(class="experiencia") Currículo
+                    div(class="socials")
+                        a(class="github" href="https://github.com/joaobraun" target="_blank")
+                            <ion-icon name="logo-github"></ion-icon>
+                        a(class="linkedin" href="https://www.linkedin.com/in/joao-braun/" target="_blank")
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        a(class="youtube" href="https://www.youtube.com/channel/UCyx2x8N4GezFu3C10C2TSIw" target="_blank")
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        a(class="steam" href="https://steamcommunity.com/id/madvillain___/" target="_blank")
+                            <ion-icon name="logo-steam"></ion-icon>
+
+                main(class="main-content" id="sobre")
+                    p(class="") Sou apaixonado por desenvolvimento e tenho foco na criação aplicações web, principalmente utilizando JavaScript. Gosto de explorar todos os aspectos desse cenário dinâmico e estou sempre em busca de aprimorar minhas habilidades.<br><br> Além de me dedicar ao desenvolvimento web, estou aberto a aprender sobre todas as áreas relacionadas. Estou comprometido com a aprendizagem contínua, sempre buscando me manter atualizado e adaptado às inovações no campo do desenvolvimento de aplicações.<br><br> Hoje estou no 5º semestre da <a href="https://www.cruzeirodosul.edu.br" style="text-decoration: none; color: rgb(226 232 240);" onmouseover="this.style.color='#0891b2';" onmouseout="this.style.color='rgb(226, 232, 240)';" target="_blank">faculdade</a> porém com experiência sólida em alguns frameworks e linguagens que utilizo além de conhecer outras tecnologias que fazem parte do desenvolvimento de software como um todo.
+
+                    div.card-container(id="projetos")
+                        div.card
+                            div.l-container
+                                header.time-period-card 2024 
+                            div.r-container
+                                a(style="text-decoration: none; color: rgb(226 232 240);" href="https://rotie.onrender.com" target="_blank")
+                                    h3.title-card Empório Rôtie (Website)
+                                p.description-card Criei uma página institucional para apresentação e incluí um catálogo com uma função de busca para facilitar encontrar os produtos disponíveis. O código está no repositório do GitHub, e a aplicação foi colocada em produção pela plataforma Render.
+                                ul.technologies-card 
+                                    li JavaScript 
+                                    li Express 
+                                    li Pug
+                                    li CSS
+    script(src='/js/script.js')
+    
