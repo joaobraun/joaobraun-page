@@ -30,6 +30,7 @@
 	.main-content {
 		width: 100% !important;
 		margin-left: 0 !important;
+		padding-bottom: 2rem !important;
 	}
 
 	.nav-list-container {
@@ -38,6 +39,8 @@
 
 	.card {
 		margin: 15% 0 5% 0 !important;
+		box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+		background-color: rgba(107, 114, 128, 0.1);
 	}
 
 	.l-container {
