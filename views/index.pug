@@ -1,5 +1,5 @@
 doctype html
-html 
+html(lang="pt")
     head
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         title @joaobraun
@@ -15,7 +15,7 @@ html
                         h2(class="") Estudante de Sistemas de Informação
                         p(class="") Construo aplicações web com foco em qualidade <br>e atenção aos detalhes.
                     nav(class="nav-list-container")
-                        ul(class="list")
+                        div(class="list")
                             a(class="about" style="text-decoration: none; color: rgb(107 114 128);" href="#sobre")
                                 li(class="sobre") Sobre
                             a(class="about" style="text-decoration: none; color: rgb(107 114 128);" href="#projetos")
@@ -23,13 +23,13 @@ html
                             a(class="curriculo" style="text-decoration: none; color: rgb(107 114 128);" href="/pdf/curriculo_2024.pdf" target="_blank")
                                 li(class="experiencia") Currículo
                     div(class="socials")
-                        a(class="github" href="https://github.com/joaobraun" target="_blank")
+                        a(class="github" href="https://github.com/joaobraun" target="_blank" aria-label="GitHub")
                             <ion-icon name="logo-github"></ion-icon>
-                        a(class="linkedin" href="https://www.linkedin.com/in/joao-braun/" target="_blank")
+                        a(class="linkedin" href="https://www.linkedin.com/in/joao-braun/" target="_blank" aria-label="Linkedin profile")
                             <ion-icon name="logo-linkedin"></ion-icon>
-                        a(class="youtube" href="https://www.youtube.com/channel/UCBC32CwrZ4jSm3E50CtNIqg" target="_blank")
+                        a(class="youtube" href="https://www.youtube.com/channel/UCBC32CwrZ4jSm3E50CtNIqg" target="_blank" aria-label="Youtube page")
                             <ion-icon name="logo-youtube"></ion-icon>
-                        a(class="steam" href="https://steamcommunity.com/id/madvillain___/" target="_blank")
+                        a(class="steam" href="https://steamcommunity.com/id/madvillain___/" target="_blank" aria-label="Steam profile")
                             <ion-icon name="logo-steam"></ion-icon>
 
                 main(class="main-content" id="sobre")
@@ -48,7 +48,7 @@ html
                                     li Express 
                                     li Pug
                                     li CSS
-                                    div.card-container(id="projetos")
+                                    div.card-container()
                         div.gap
                         div.card
                             div.l-container
