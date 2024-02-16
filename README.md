@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/joaobraun/joaobraun.github.io/assets/90209449/bd0e6ec0-338b-4fec-b632-71ead6c1ff40" alt="Image Description">
-</p>
-
 # Notes
 The idea of this page it's to serve as a digital resume, through this platform I aim to provide a comprehensive overview of my abilities and past work.
 Since I'm a student it's important to develop these ideas and practice what I'm learning.
